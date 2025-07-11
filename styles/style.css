@@ -59,11 +59,18 @@ background-repeat:repeat-x
     color: #252432;
     font-size: 24px;
 }
+.mainbg{
+    background-color: #f5f8ff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 .action{
     display: flex;
     justify-content: space-between;
     width: 1140px;
      align-items: center;
+     margin: 0 auto;
 }
 .action-banner{
     display: flex;
@@ -123,10 +130,11 @@ margin-bottom: 50px;
 .review-container {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
     margin: 0 auto;
 }
 .review {
-    background-color: #fff;
+    background-color:beige
     border-radius: 8px;
     padding: 20px;
     width: 300px;
