@@ -41,13 +41,105 @@
 }
 .banner{
 text-align: center;
-font-size: 38px;
+font-size: 30px;
 padding: 267px 309px;
-margin: 0;
+
 }
 .body-bg{
-    background-image: url(../Assets/Hero-bg.png);
+background-image: url(../Assets/Hero-bg.png);
 background-repeat:repeat-x
-padding 0;
     
+}
+.lfside{
+    font-weight: bold;
+    width: 517px;
+    font-size: 42px;
+}
+.subtitle{
+    color: #252432;
+    font-size: 24px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+     align-items: center;
+}
+.action-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-sec{
+    background-color: #8e8eb9;
+    width: 1140px;
+    height: 306px;
+    text-align: center;
+    justify-content:flex;
+    /*padding:  50px 142px;*/
+    margin: 0 auto;
+
+}
+.use-title{
+font-size: 38px;
+font-weight: bold;
+margin-bottom: 40px;
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.data-items{
+    text-align: center;
+    margin: 0 auto;
+}
+.number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin:0 auto;
+}
+.data-title{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 42px;
+font-weight: bold;
+color: #252432;
+margin-bottom: 50px;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.review-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.review {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+.reviewer-info {
+
+   display: flex; 
+justify-content: space-between;
+   justify-content:left;
+
+}
+.stars{
+margin-top: 10px;
+margin-bottom: 10px;
 }
